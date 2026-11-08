@@ -1,0 +1,25 @@
+{
+  "best_params": {
+    "Logistic Regression": {
+      "C": 0.1
+    },
+    "Decision Tree": {
+      "max_depth": 6,
+      "min_samples_leaf": 5
+    },
+    "kNN": {
+      "n_neighbors": 5,
+      "weights": "distance"
+    },
+    "Naive Bayes": {
+      "var_smoothing": 0.001
+    },
+    "Support Vector Machine": {
+      "C": 5,
+      "gamma": "scale"
+    }
+  },
+  "seed": 2026,
+  "n_train": 7045,
+  "n_test": 1762
+}
